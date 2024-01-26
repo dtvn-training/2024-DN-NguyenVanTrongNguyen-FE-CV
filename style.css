@@ -1,0 +1,94 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    /* background-color: #043382; */
+    padding-top: -20px;
+    padding-bottom: -20px;
+}
+
+.avatar img{
+    width: 100%; 
+    border-radius: 200px;
+    margin: auto;
+}
+
+.full-name {
+    font-size: 200%;
+    align-items: center;
+}
+
+.full-name h1, .full-name h2 {
+    text-align: center;
+}
+
+.phone .value {
+    margin-left: 10%;
+}
+
+.info-person {
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+
+.phone,
+.email,
+.face,
+.linked,
+.address {
+    display: flex;
+    margin: 0 auto;
+}
+
+.linked, .face {
+    margin-right: -3%;
+}
+
+.icon {
+    flex-basis: 5%;
+    margin: auto;
+}
+
+.icon i {
+    font-size: 100%;
+}
+
+.value{
+    flex-basis: 90%;
+    font-size: 120%;
+}
+
+.tabs {
+    margin: 0 auto;
+}
+
+.tab-pane p {
+    font-size: 200%;
+}
+
+.title {
+    border-bottom: 1px solid #000;
+}
+
+.items {
+    margin-left: 3%;
+}
+
+.item .right {
+    font-size: 200%;
+}
+
+.item .right img {
+    width: 100%;
+}
+
+.item ul li {
+    font-size: 150%;
+}
