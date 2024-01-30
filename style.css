@@ -70,6 +70,10 @@ a {
     margin-left: 3%;
 }
 
+.item .right {
+    font-size: 200%;
+}
+
 
 
 .item .right img {
