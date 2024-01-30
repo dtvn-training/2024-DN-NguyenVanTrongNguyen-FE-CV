@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="library.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tab.css">
+    <!-- <link rel="stylesheet" href="nav.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Trong Nguyen Java Developer</title>
     
@@ -13,10 +14,10 @@
 <body>
     <header>
         <div class="info grid wide row">
-            <div class="avatar l-2 l-o-1">
+            <div class="avatar l-2 l-o-1 m-2 c-4 c-o-4">
                 <img src="avt.JPG" alt="">
             </div>
-            <div class="full-name l-9">
+            <div class="full-name l-9 m-9 c-12">
                 <h1>Nguyễn Văn Trọng Nguyên</h1>
                 <h2>Software Developer</h2>
             </div>
@@ -25,73 +26,73 @@
     <body>
         <div class="container grid wide">
             <div class="info-person row">
-                <div class="phone l-1">
+                <div class="phone l-1 m-2 c-12">
                     <div class="icon">
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div class="value">
-                        <h4>0768464397</h4>
+                        <span>0768464397</span>
                     </div>
                 </div>
-                <div class="email l-3">
+                <div class="email l-3 m-2 c-12">
                     <div class="icon">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="value">
-                        <h4>trongnguyen.2002.nguyenvan@gmail.com</h4>
+                        <span>trongnguyen.2002.nguyenvan@gmail.com</span>
                     </div>
                 </div>
-                <div class="face l-3">
+                <div class="face l-3 m-2 c-12">
                     <div class="icon">
-                        <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com/trongnguyen.dt.2002"><i class="fa-brands fa-facebook"></i></a>
                     </div>
                     <div class="value ">
-                        <h4><a href="https://www.facebook.com/trongnguyen.dt.2002">facebook.com/trongnguyen.dt.2002</a></h4>
+                        <span><a href="https://www.facebook.com/trongnguyen.dt.2002">facebook.com/trongnguyen.dt.2002</a></span>
                     </div>
                 </div>
-                <div class="linked l-3">
+                <div class="linked l-3 m-2 c-12">
                     <div class="icon">
-                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/trongnguyen-dt/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <div class="value">
-                        <h4><a href="https://www.linkedin.com/in/trongnguyen-dt/">linkedin.com/in/trongnguyen-dt/</a></h4>
+                        <span><a href="https://www.linkedin.com/in/trongnguyen-dt/">linkedin.com/in/trongnguyen-dt</a></span>
                     </div>
                 </div>
-                <div class="address l-2">
+                <div class="address l-2 m-2 c-12">
                     <div class="icon">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div class="value">
-                        <h4>Da Nang, Viet Nam</h4>
+                        <span>Da Nang, Viet Nam</span>
                     </div>
                 </div>
             </div>
             <div>
                 <!-- Tab items -->
                 <div class="tabs row">
-                    <div class="tab-item l-2 active">
-                        <i class="tab-icon fas fa-code"></i>
-                        About me
+                    <div class="tab-item l-2 m-2 c-2 active">
+                        <i class="tab-icon fa-solid fa-signature"></i>
+                        <div class="val">About me</div>
                     </div>
-                    <div class="tab-item l-2">
-                        <i class="tab-icon fas fa-cog"></i>
-                        Education
+                    <div class="tab-item l-2 m-2 c-2">
+                        <i class="tab-icon fa-solid fa-graduation-cap"></i>
+                        <div class="val">Education</div>
                     </div>
-                    <div class="tab-item l-2">
-                        <i class="tab-icon fas fa-plus-circle"></i>
-                        Experience
+                    <div class="tab-item l-2 m-2 c-2">
+                        <i class="tab-icon fa-solid fa-building-circle-check"></i>
+                        <div class="val">Experience</div>
                     </div>
-                    <div class="tab-item l-2">
-                        <i class="tab-icon fas fa-pen-nib"></i>
-                        Skills
+                    <div class="tab-item l-2 m-2 c-2">
+                        <i class="tab-icon fa-solid fa-laptop-code"></i>
+                        <div class="val">Skills</div>
                     </div>
-                    <div class="tab-item l-2">
-                        <i class="tab-icon fas fa-pen-nib"></i>
-                        Taken Project
+                    <div class="tab-item l-2 m-2 c-2">
+                        <i class="tab-icon fa-solid fa-diagram-project"></i>
+                        <div class="val">Taken Project</div>
                     </div>
-                    <div class="tab-item l-2">
-                        <i class="tab-icon fas fa-pen-nib"></i>
-                        Activite
+                    <div class="tab-item l-2 m-2 c-2">
+                        <i class="tab-icon fa-solid fa-handshake-angle"></i>
+                        <div class="val">Activite</div>
                     </div>
                     <div class="line"></div>
                 </div>
@@ -111,22 +112,22 @@
                             <h1>Education</h1>
                         </div>
                         <div class="items">
-                            <div class="item row">
-                                <div class="left l-9">
+                            <div class="item time row">
+                                <div class="left l-8 m-8 c-12">
                                     <h2>Da Nang University of Science and Technology</h2>
                                     <h3>Major: Technology information - Information system</h3>
                                 </div>
-                                <div class="right l-2">
-                                    <h5>09/2020 - 07/2024</h5>
+                                <div class="right l-3 m-3 c-12">
+                                    <span>09/2020 - 07/2024</span>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="left l-9">
+                            <div class="item time row">
+                                <div class="left l-8 m-8 c-12">
                                     <h2>Professional programmer training center IVIETTECH</h2>
                                     <h3>Major: Java FullStack Developer</h3>
                                 </div>
-                                <div class="right l-2">
-                                    <h5>02/2023 - 10/2023</h5>
+                                <div class="right l-3 m-3 c-12">
+                                    <span>02/2023 - 10/2023</span>
                                 </div>
                             </div>
                         </div>
@@ -136,13 +137,13 @@
                             <h1>Experience</h1>
                         </div>
                         <div class="items">
-                            <div class="item row">
-                                <div class="left l-9">
+                            <div class="item time row">
+                                <div class="left l-8 m-8 c-12">
                                     <h2>DAC Data Technology VietNam</h2>
                                     <h3>Position: InternShip</h3>
                                 </div>
-                                <div class="right l-2">
-                                    <h5>01/2024 - 03/2024</h5>
+                                <div class="right l-3 m-3 c-12">
+                                    <span>01/2024 - 03/2024</span>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +153,7 @@
                             <h1>Skills</h1>
                         </div>
                         <div class="items row">
-                            <div class="item l-3">
+                            <div class="item l-3 m-6 c-12">
                                 <h2>Back-end</h2>
                                 <ul>
                                     <li>OOP, MVC, RESTful API</li>
@@ -160,20 +161,20 @@
                                     <li>Spring Boot, Spring Security, Spring MVC, Spring JPA</li>
                                 </ul>
                             </div>
-                            <div class="item l-3">
+                            <div class="item l-3 m-6 c-12">
                                 <h2>Front-end</h2>
                                 <ul>
                                     <li>HTML, CSS, JS</li>
                                     <li>Jquery, Ajax, Bootstrap</li>
                                 </ul>
                             </div>
-                            <div class="item l-3">
+                            <div class="item l-3 m-6 c-12">
                                 <h2>Database</h2>
                                 <ul>
                                     <li>MySQL, SQLServer</li>
                                 </ul>
                             </div>
-                            <div class="item l-3">
+                            <div class="item l-3 m-6 c-12">
                                 <h2>Other</h2>
                                 <ul>
                                     <li>C#, C/C++</li>
@@ -189,8 +190,8 @@
                             <h1>Taken Project Summaries</h1>
                         </div>
                         <div class="items">
-                            <div class="item row">
-                                <div class="left l-8">
+                            <div class="item time row">
+                                <div class="left l-12">
                                     <div class="title-small">
                                         <h2>SOFTWARE PROJECT: WEB/APP FLOWER SHOP</h2>
                                         <h3>USING LANGUAGE: JAVA, KOTLIN, JAVASCRIPT</h3>
@@ -223,18 +224,23 @@
                                                 <li>Working with Java17, spring boot, Spring Security, Spring JPA, RestFull API and MySQL</li>
                                             </ul>
                                         </div>
-                                        
+                                        <div class=" url-source-code">
+                                            <h3>Link:</h3>
+                                            <ul>
+                                                <li><a href="https://github.com/Trong-Nguyen-DT/FlowerShop.git">github.com/Trong-Nguyen-DT/FlowerShop.git</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="right l-3">
-                                    <h5>09/2023 - 12/2023</h5>
+                                <div class="right l-12">
+                                    <span>09/2023 - 12/2023</span>
                                     <div class="source-code">
-                                        <a href=""><img src="avt.JPG" alt=""></a>
+                                        <a href="https://github.com/Trong-Nguyen-DT/FlowerShop.git"><img src="pbl6.jpg" alt=""></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="left l-8">
+                            <div class="item time row">
+                                <div class="left l-12">
                                     <div class="title-small">
                                         <h2>SOFTWARE PROJECT: WEBSITE ORDER BY QRCODE AND COFFEE MANAGEMENT</h2>
                                         <h3>USING LANGUAGE: JAVA, JAVASCRIPT</h3>
@@ -265,17 +271,23 @@
                                                 <li>Working with Java17, spring boot, Spring Security, Spring JPA, RestFull API, Spring MVC and MySQL</li>
                                             </ul>
                                         </div>
+                                        <div class=" url-source-code">
+                                            <h3>Link:</h3>
+                                            <ul>
+                                                <li><a href="https://github.com/Trong-Nguyen-DT/QRCoffee.git">github.com/Trong-Nguyen-DT/QRCoffee.git</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="right l-3">
-                                    <h5>09/2023 - 10/2023</h5>
+                                <div class="right l-12">
+                                    <span>09/2023 - 10/2023</span>
                                     <div class="source-code">
-                                        <a href=""><img src="avt.JPG" alt=""></a>
+                                        <a href="https://github.com/Trong-Nguyen-DT/QRCoffee.git"><img src="iviettech.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="left l-8">
+                            <div class="item time row">
+                                <div class="left l-12">
                                     <div class="title-small">
                                         <h2>COMPUTER ENGINEERING PROJECT: FACE RECOGNITION AND TIME ATTENDANCE SYSTEM</h2>
                                         <h3>USING LANGUAGE: PYTHON</h3>
@@ -307,21 +319,40 @@
                                                 <li>Working with Python, OpenCV, MTCNN model, Face training algorithm</li>
                                             </ul>
                                         </div>
+                                        <div class=" url-source-code">
+                                            <h3>Link:</h3>
+                                            <ul>
+                                                <li><a href="https://github.com/Trong-Nguyen-DT/PBL5.git">github.com/Trong-Nguyen-DT/PBL5.git</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="right l-3">
-                                    <h5>02/2023 - 05/2023</h5>
+                                <div class="right l-12">
+                                    <span>02/2023 - 05/2023</span>
                                     <div class="source-code">
-                                        <a href=""><img src="avt.JPG" alt=""></a>
+                                        <a href="https://github.com/Trong-Nguyen-DT/PBL5"><img src="pbl5.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane">
-                        <h2>Angular</h2>
-                        <p>Angular is an application design framework and development platform for creating efficient and sophisticated
-                        single-page apps.</p>
+                        <div class="title">
+                            <h1>Activite</h1>
+                        </div>
+                        <div class="items">
+                            <div class="item time row">
+                                <div class="left l-8 m-8 c-12">
+                                    <h3>ROLE: VOLUNTEER</h3>
+                                    <ul>
+                                        <li>Teaching children with disabilities at Nguyen Dinh Chieu School</li>
+                                    </ul>
+                                </div>
+                                <div class="right l-3 m-3 c-12">
+                                    <span>10/2020 - 10/2023</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
               <script rel="stylesheet" src="js.js"></script>

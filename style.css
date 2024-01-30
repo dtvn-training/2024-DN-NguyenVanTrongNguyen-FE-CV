@@ -26,9 +26,7 @@ a {
     text-align: center;
 }
 
-.phone .value {
-    margin-left: 10%;
-}
+
 
 .info-person {
     margin: 0 auto;
@@ -36,33 +34,24 @@ a {
     border-bottom: 1px solid #000;
 }
 
-
-
 .phone,
 .email,
 .face,
 .linked,
 .address {
     display: flex;
-    margin: 0 auto;
+    margin: 10px auto;
+    align-items: center;
 }
 
-.linked, .face {
-    margin-right: -3%;
-}
 
 .icon {
     flex-basis: 5%;
-    margin: auto;
+    margin: 0 2.5%;
 }
 
 .icon i {
-    font-size: 100%;
-}
-
-.value{
-    flex-basis: 90%;
-    font-size: 120%;
+    font-size: 24px;
 }
 
 .tabs {
@@ -81,9 +70,7 @@ a {
     margin-left: 3%;
 }
 
-.item .right {
-    font-size: 200%;
-}
+
 
 .item .right img {
     width: 100%;
@@ -92,3 +79,135 @@ a {
 .item ul li {
     font-size: 150%;
 }
+
+.right img {
+    border-radius: 20px;
+}
+
+.url-source-code {
+    display: none;
+}
+
+@media (min-width: 740px) and (max-width: 1200px) {
+
+    .phone,
+    .email,
+    .face,
+    .linked,
+    .address {
+        margin: 10px auto;
+        justify-content: center;
+    }
+}
+
+
+/* PC */
+@media (min-width: 1024px) {
+    .phone .value {
+        margin-left: 10%;
+    }
+
+    .linked, .face {
+        margin-right: -3%;
+    }
+
+    .tabs {
+        margin: 0;
+        padding: 0;
+    }
+
+    .phone .value {
+        margin-left: 10%;
+    }
+
+    .item .right {
+        font-size: 200%;
+        text-align: center;
+        margin: auto 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1200px) {
+    .full-name {
+        font-size: 130%;
+    }
+
+    .phone,
+    .email,
+    .face,
+    .linked,
+    .address {
+        margin: 0 auto;
+        justify-content: center;
+        max-width: fit-content;
+    }
+
+    .value {
+        transition: all 0.5s ease;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    .value{
+        width: 0px;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .item .right {
+        font-size: 150%;
+    }
+
+    .info-person > div:hover .value {
+        width: 300px;
+        transition: all 0.5s ease;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .tabs .val {
+        display: none;
+    }
+
+    .time {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .full-name {
+        font-size: 70%;
+    }
+
+    .url-source-code {
+        display: block;
+    }
+
+    .source-code {
+        display: none;
+    }
+
+    .value{
+        font-size: 90%;
+    }
+
+    .item .right {
+        font-size: 150%;
+    }
+
+    .tabs {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
